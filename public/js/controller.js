@@ -138,6 +138,7 @@ angular.module('chatApp', [])
           opts.hideCorrectionSuggestions();
           opts.cancelled();
         }
+        setState(STATE_STANDARD);
       }
 
       ///Finding a correction
@@ -373,6 +374,11 @@ angular.module('chatApp', [])
            .then(function(result) {
               message.incorrectWords = result.data;
             });
+
+      $timeout(function() {
+        $("#chat .messages").animate({ scrollTop: $("#chat .messages")[0].scrollHeight});
+      });
+      
     } else if(correctionCoordinator.getState() === correctionCoordinator.STATE_SELECTING_CORRECTION) {
       //Start with the very last instance
       //var prevValue = $scope.correcting;

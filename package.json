@@ -1,0 +1,42 @@
+{
+  "name": "ChatChecker",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jordan-hamill/ChatChecker",
+  "author": {
+    "name": "Jordan Hamill"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jordan-hamill/ChatChecker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jordan-hamill/ChatChecker/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jordan-hamill/ChatChecker/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/ChatChecker",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.2"
+  },
+  "keywords": [],
+  "dependencies": {
+    "spellcheck": "0.0.4",
+    "restify": "~2.6.1",
+    "q": "~0.9.6",
+    "natural": "~0.1.25"
+  }
+}

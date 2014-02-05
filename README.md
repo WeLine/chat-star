@@ -1,23 +1,19 @@
-# ChatChecker
+# Chat Star
 
-The best project ever.
+An HTML5 and angularjs proof of concept based upon the wonderful work by https://twitter.com/nameswilson.
 
-## Getting Started
-Install the module with: `npm install ChatChecker`
+http://dribbble.com/shots/1392271--GIF-Manual-correct-messages
 
-```javascript
-var ChatChecker = require('ChatChecker');
-ChatChecker.awesome(); // "awesome"
-```
+![alt text](http://d13yacurqjgara.cloudfront.net/users/32058/screenshots/1392271/messages_dribble.gif "Design gif")
+
+It uses a node.js backend just to perform spell checking using spellcheck and Open Office dictionaries.
 
 ## Documentation
-_(Coming soon)_
+_(I'll tidy it up and make it more reusable soon)_
 
 ## Examples
 _(Coming soon)_
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
 _(Nothing yet)_
